@@ -23,15 +23,15 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col items-center mb-5">
-              <a href="#" className="">Olvidaste tu Contraseña?</a>
+              <a href="#" className="text-sm text-gray-400 hover:text-gray-300">¿Olvidaste tu Contraseña?</a>
             </div>
-            <a href="#" className="border-2 border-gray-300 rounded-full px-12 py-2 font-semibold">Iniciar Sesion</a>      
+            <a href="#" className="border-2 border-gray-300 rounded-full px-12 py-2 font-semibold hover:bg-gray-300 hover:text-black">Iniciar Sesion</a>      
           </div>
           
           <div className="w-2/5 bg-gray-300 text-black rounded-tr-2xl rounded-br-2xl py-35 px-15"> 
             <h2 className="text-3xl font-bold mb-10">Bienvenido a GAIT</h2>
             <p className="mb-10 ">¿Aún no tienes un usuario? Solicita tus credenciales de registro</p>
-            <a href="#" className="border-2 border-black rounded-full px-12 py-2 font-semibold">Regístro</a>
+            <a href="#" className="border-2 border-black rounded-full px-12 py-2 font-semibold hover:bg-purple-950 hover:text-gray-300">Regístro</a>
           </div>
         </div>  
       </main>
